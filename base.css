@@ -1,0 +1,35 @@
+<style>
+  body {
+    margin: 0px;
+  }
+  .maintitle {
+    margin: 0px;
+    border-bottom: 3px solid black;
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+    weight: 0px;
+  }
+  .list {
+    pont-size: 45px;
+    border-right: 1px solid black;
+    width: 80px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-right: 10px;
+    margin: 0px;
+  }
+  .sawblind {
+    color: black;
+    text-decoration: none;
+  }
+  .article {
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid #article {
+    padding: 30px;
+  }
+</style>
